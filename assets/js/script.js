@@ -28,7 +28,7 @@ Bois et Produits de Forêt : Des matériaux en bois pour divers usages, allant d
         prod1: `Pollinisateur mécanique télescopique électrique (ou par groupe électrogène 500w) pour palmier dattier.
         90 dattiers par heure, hauteur 10m sans grimper.`,
         prod2: `Pollinisateur mécanique télescopique à batterie intégrée pour palmier dattier.
-        90 dattiers par heure, hauteur 10m sans grimper.`,
+        70 dattiers par heure, hauteur 10m sans grimper.`,
         prod3: `Pollinisateur télescopique manuel pour palmier dattier et pistachier.
         Hauteur jusqu’à 5m sans grimper.`,
         prod4: `Transplanteur manuel pour légumes.
