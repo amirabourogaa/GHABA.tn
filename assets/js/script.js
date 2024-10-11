@@ -21,8 +21,8 @@ Bois et Produits de Forêt : Des matériaux en bois pour divers usages, allant d
       `,
       categories: {
         all: 'Tous',
-        cat1: 'Pollinisateurs',
-        cat2: 'Équipements agricoles manuels'
+        cat1: 'Pollinisateurs de dattier',
+        cat2: 'Outils agricoles manuels'
       },
       products: {
         prod1: `Pollinisateur mécanique télescopique électrique (ou par groupe électrogène 500w) pour palmier dattier.
@@ -69,7 +69,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
     },
     footer: {
       footerTitle: '🌿Ghaba🌿',
-      footerDesc: `Chez Ghaba.tn, nous nous engageons à apporter la nature plus près de vous avec des produits de qualité et respectueux de l'environnement. Suivez-nous sur nos réseaux sociaux pour rester informé de nos dernières nouveautés et conseils de jardinage.`,
+      footerDesc: `Depuis des années, nous développons des techniques et des machines qui facilitent le travail des agriculteurs et des passionnés de jardinage en général... la confiance de nos artisans est notre capital.`,
       footerText: '© Tous droits réservés - Jardin Nature - 2024'
     }
   },
@@ -95,8 +95,8 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
       `,
       categories: {
         all: 'جميع المنتجات',
-        cat1: 'الملقحات',
-        cat2: ' المعدات الزراعية اليدوية'
+        cat1: 'آلات تلقيح نخيل',
+        cat2: ' معدات زراعية يدوية  '
       },
       products: {
         prod2: `ملقحة الية تلسكوبيه للنخيل
@@ -139,27 +139,29 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
     contactSection: {
       title: 'اتصل بنا',
       description: `
-      نحن نتطلع لسماع أخباركم! سواء كانت لديكم أسئلة حول منتجاتنا، أو تحتاجون إلى معلومات إضافية، أو ترغبون في مشاركة تجربتكم، فإن فريقنا جاهز للاستماع. لا تترددوا في الاتصال بنا عبر الهاتف أو البريد الإلكتروني أو من خلال وسائل التواصل الاجتماعي الخاصة بنا. معًا، لنخلق مساحة طبيعية تناسب احتياجاتكم.
- `,
+سواء كانت لديكم أسئلة حول منتجاتنا، أو تحتاجون إلى معلومات إضافية، أو ترغبون في مشاركة تجربتكم، فإن فريقنا جاهز للاستماع. لا تترددوا في الاتصال بنا عبر الهاتف، الواتساب، أو البريد الإلكتروني، أو من خلال وسائل التواصل الاجتماعي الخاصة بنا.
+      `,
       adressTitle: 'العنوان',
-      adressText: 'عمران العلوي، تونس',
+      adressText: 'العمران الاعلى - تونس - الجمهورية التونسية',
       telTitle: 'الهاتف و الواتساب',
       emailtitle: 'البريد الإلكتروني'
     },
     footer: {
       footerTitle: '🌿الغابة🌿',
-      footerDesc: `في غابة.تن، نلتزم بتقريب الطبيعة إليكم من خلال منتجات عالية الجودة وصديقة للبيئة. تابعونا على وسائل التواصل الاجتماعي للبقاء على اطلاع بأحدث منتجاتنا ونصائح البستنة.
-`,
+      footerDesc: 
+      `
+منذ سنوات نحن نطور تقنيات و الات تسهل عمل المزارعين و هوات البستنة عموما ... يمكنكم متابعتنا على وسائل التواصل الاجتماعي للاطلاع على احدث منتجاتنا
+      `,
       footerText: 'جميع الحقوق محفوظة - 🌿الغابة🌿 - 2024'
     }
   }
 }
 
 function changeLanguage (lang) {
-  document.querySelector('.sitename').textContent =
-    translations[lang].websiteTitle
-  document.getElementById('website-title').textContent =
-    translations[lang].websiteTitle
+  // document.querySelector('.sitename').textContent =
+  //   translations[lang].websiteTitle
+  // document.getElementById('website-title').textContent =
+  //   translations[lang].websiteTitle
   document.getElementById('heroDescription').textContent =
     translations[lang].heroDescription
 
@@ -225,8 +227,7 @@ function changeLanguage (lang) {
   document.querySelector('#email-title').textContent =
     translations[lang].contactSection.emailtitle
 
-  document.getElementById('footer-title').textContent =
-    translations[lang].footer.footerTitle
+ 
   document.getElementById('footer-description').textContent =
     translations[lang].footer.footerDesc
   document.getElementById('footer-text').textContent =
