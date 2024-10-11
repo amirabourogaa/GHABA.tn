@@ -64,7 +64,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
       `,
       adressTitle: 'Addresse',
       adressText: 'Omrane supérieur, Tunis',
-      telTitle: 'Téléphone',
+      telTitle: 'Téléphone & Whatsapp',
       emailtitle: 'Email'
     },
     footer: {
@@ -143,7 +143,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
  `,
       adressTitle: 'العنوان',
       adressText: 'عمران العلوي، تونس',
-      telTitle: 'الهاتف',
+      telTitle: 'الهاتف و الواتساب',
       emailtitle: 'البريد الإلكتروني'
     },
     footer: {
