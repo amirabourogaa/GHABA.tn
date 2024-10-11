@@ -64,7 +64,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
       `,
       adressTitle: 'Addresse',
       adressText: 'Omrane supérieur, Tunis',
-      telTitle: 'Téléphone & Whatsapp',
+      telTitle: 'Téléphone et Whatsapp',
       emailtitle: 'Email'
     },
     footer: {
