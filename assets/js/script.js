@@ -42,8 +42,8 @@ Bois et Produits de Forêt : Des matériaux en bois pour divers usages, allant d
       },
 
       actions: {
-        btn1: '',
-        btn2: ''
+        btn1: 'Commander',
+        btn2: 'Voir vidéo'
       }
     },
     aboutSection: {
@@ -118,8 +118,8 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
         prod9: `وحدات ومعدات إنتاج علف الشعير الأخضر المستنبت بدون تربة كعلف رخيص للحيوانات العاشبة`
       },
       actions: {
-        btn1: '',
-        btn2: ''
+        btn1: 'اطلب الآن',
+        btn2: 'مشاهدة الفيديو'
       }
     },
     aboutSection: {
@@ -205,6 +205,10 @@ function changeLanguage (lang) {
     translations[lang].productSection.products.prod8
   document.querySelector('#prod9-desc').textContent =
     translations[lang].productSection.products.prod9
+  document.querySelector('#btn-action1').textContent =
+    translations[lang].productSection.products.actions.btn1
+  document.querySelector('#btn-action2').textContent =
+    translations[lang].productSection.products.actions.btn2
 
   document.querySelector('#about-title').textContent =
     translations[lang].aboutSection.title
