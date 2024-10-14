@@ -12,12 +12,9 @@ const translations = {
     productSection: {
       title: 'Nos produits',
       description: `
-Chez Ghaba.tn, nous vous offrons une large gamme de produits naturels liés à la forêt, conçus pour répondre à vos besoins en jardinage et en aménagement extérieur. Nos produits incluent :
-
-Plantes et Fleurs : Une variété de plantes naturelles et de fleurs pour ajouter une touche de verdure à votre espace.
-Accessoires de Jardinage : Des outils et accessoires pour vous aider à entretenir facilement votre jardin.
-Produits Organiques : Engrais et autres produits naturels pour une terre fertile et des plantes en bonne santé.
-Bois et Produits de Forêt : Des matériaux en bois pour divers usages, allant de l'aménagement au bricolage.
+Nous développons des outils et équipements dédiés aux productions légumières en maraîchage diversifié sur petites et moyennes surfaces, allant de la préparation du sol à l'implantation de culture ...
+Nous proposons aussi une vaste gamme des machines de pollinisation manuelle et mécanique de palmier- dattier et pistachier ...
+Notre activité principale reste la fabrication des Unités et matériels de production de fourrage vers hors sol « hydroponique » pour l'alimentation des animaux d’élevage...
       `,
       categories: {
         all: 'Tous',
@@ -86,13 +83,11 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
     productSection: {
       title: 'منتجاتنا',
       description: `
-      في غابة.تن، نقدم مجموعة واسعة من المنتجات الطبيعية المتعلقة بالغابة، المصممة لتلبية احتياجاتكم في الزراعة والبستنة. تشمل منتجاتنا ما يلي:
+      نحن نقوم بتطوير معدات تسهل على المزارعين والعموم خدمة الأرض بنجاعة ابتداء   من تحضير الأرض للزراعة الى غاية جني المحاصيل في المساحات الصغيرة والمتوسطية...
+  كما تطور شركة الغابة مجموعة من آلات التلقيح اليدوي والميكانيكي للنخيل واشجار الفستق... 
+ويبقى نشاطنا الرئيسي تصنيع وحدات ومعدات إنتاج الأعلاف الخضراء المستنبتة بدون تربة "هيدروبونيك" لتغذية الحيوانات العاشبة...
 
-النباتات والزهور: مجموعة متنوعة من النباتات الطبيعية والزهور لإضفاء لمسة من الجمال على مساحتكم.
-إكسسوارات البستنة: أدوات وإكسسوارات تساعدكم في العناية بحديقتكم بكل سهولة وكفاءة.
-المنتجات العضوية: أسمدة ومنتجات طبيعية لضمان خصوبة التربة وصحة النباتات.
-الخشب ومنتجات الغابة: مواد خشبية طبيعية متعددة الاستخدامات لأغراض الزراعة أو الديكور.
-      `,
+    `,
       categories: {
         all: 'جميع المنتجات',
         cat1: 'آلات تلقيح نخيل',
@@ -206,9 +201,9 @@ function changeLanguage (lang) {
   document.querySelector('#prod9-desc').textContent =
     translations[lang].productSection.products.prod9
   document.querySelector('#btn-action1').textContent =
-    translations[lang].productSection.products.actions.btn1
+    translations[lang].productSection.actions.btn1
   document.querySelector('#btn-action2').textContent =
-    translations[lang].productSection.products.actions.btn2
+    translations[lang].productSection.actions.btn2
 
   document.querySelector('#about-title').textContent =
     translations[lang].aboutSection.title
