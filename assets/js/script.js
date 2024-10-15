@@ -1,7 +1,7 @@
 const translations = {
   fr: {
     websiteTitle: '🌿Ghaba🌿',
-    heroTitle: 'Bienvenue à Jardin Nature',
+    heroTitle: 'Bienvenue à Ghaba',
     heroDescription: "14 ans au service de l'agriculture.",
     menu: {
       home: 'Accueil',
@@ -39,7 +39,7 @@ Notre activité principale reste la fabrication des Unités et matériels de pro
       },
 
       actions: {
-        btn1: 'Commander',
+        btn1: 'Info - Tél/Whatsapp:+216 58665126',
         btn2: 'Voir vidéo'
       }
     },
@@ -67,7 +67,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
     footer: {
       footerTitle: '🌿Ghaba🌿',
       footerDesc: `Depuis des années, nous développons des techniques et des machines qui facilitent le travail des agriculteurs et des passionnés de jardinage en général... la confiance de nos artisans est notre capital.`,
-      footerText: '© Tous droits réservés - Jardin Nature - 2024'
+      footerText: '© Tous droits réservés - Ghaba - 2024'
     }
   },
   ar: {
@@ -113,7 +113,7 @@ Nous apprécions la coopération avec ceux qui souhaitent être des distributeur
         prod9: `وحدات ومعدات إنتاج علف الشعير الأخضر المستنبت بدون تربة كعلف رخيص للحيوانات العاشبة`
       },
       actions: {
-        btn1: 'اطلب الآن',
+        btn1: ' للطلب هاتف وواتساب :216.58.665126',
         btn2: 'مشاهدة الفيديو'
       }
     },
